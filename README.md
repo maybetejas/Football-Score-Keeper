@@ -1,75 +1,43 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Football Scorekeeper App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This Football Scorekeeper app allows users to track and manage a live football match, including team details, match events, and score updates. The app provides an interactive interface to manage teams, add events like goals and fouls, and display dynamic updates as the match progresses.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. **Team Management**
+   - **Team Logos:** Users can upload custom logos for each team.
+   - **Team Names:** Ability to modify the team names via a text input when in edit mode.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. **Match Timer**
+   - **Live Match Timer:** A timer counts up to 90 minutes, representing a typical football match duration. The timer starts with a click and can be reset at any time.
+   - **Time Format:** The timer is displayed in the "MM:SS" format.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. **Match Events**
+   - **Add Events:** Users can add events to the match, including goals, yellow cards, and red cards.
+   - **Player and Event Input:** The app allows users to input the player’s name and the time of the event.
+   - **Event List:** Each event (goal, yellow/red card) is displayed in the match summary for both teams.
 
-### `npm test`
+### 4. **Scoreboard**
+   - **Live Score Updates:** The app displays live scores for both teams. The score updates automatically as events are added.
+   - **Dynamic Background Gradient:** The background of the app dynamically adjusts based on the team logos to create a visually appealing gradient effect.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. **User Interface**
+   - **Editable Team Information:** When in edit mode, users can change team names and logos.
+   - **Interactive Event Input:** A popup form lets users input player names and event types, such as goals and fouls.
+   - **Responsive Design:** The app is designed to work well on different screen sizes.
 
-### `npm run build`
+## How to Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Team Setup:** Upload team logos and set team names for both teams.
+2. **Start Timer:** Click the "Start" button to begin the match timer.
+3. **Add Events:** During the match, click the "Add" button to input events for either team. Select the team, enter the player name and event type, and click "Add" to record the event.
+4. **View Events:** Events like goals and yellow/red cards are displayed under the respective teams with the player name and timestamp.
+5. **Reset Timer:** Click the "Reset" button to reset the match timer to 0:00.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Football-Score-Keeper
-Simple JSX app to keep score of  a football game
->>>>>>> 7e5c6a70f5bcf4957c46eb9353a54d15e3c4b2ca
+- React
+- FontAwesome for icons
+- Fast Average Color (for dynamic background gradient)
