@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03407424.css",
+    "main.js": "/static/js/main.e4aa1222.js",
+    "static/media/city.png": "/static/media/city.db8465b7544198054ffc.png",
+    "static/media/utd.png": "/static/media/utd.753966d57f3525dc1dc7.png",
+    "index.html": "/index.html",
+    "main.03407424.css.map": "/static/css/main.03407424.css.map",
+    "main.e4aa1222.js.map": "/static/js/main.e4aa1222.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03407424.css",
+    "static/js/main.e4aa1222.js"
+  ]
+}
